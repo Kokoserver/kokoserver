@@ -1,0 +1,11 @@
+@import "./base.css";
+
+/* *,
+*::after,
+*::before {
+  font-size: 62.5%;
+} */
+
+body {
+  background-color: var(--white);
+}

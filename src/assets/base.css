@@ -1,0 +1,13 @@
+:root {
+  --primary-color: #130327;
+  --white: #ffffff;
+  --bg-color: var(--white);
+  --font-family: "Roboto";
+  --font-weight-4: 400;
+  --border-radius: 8px;
+  --box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
