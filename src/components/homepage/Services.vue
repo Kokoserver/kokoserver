@@ -2,6 +2,8 @@
 import frontEndIcon from "@/assets/frontEndIcon.svg"
 import backEndIcon from "@/assets/backEndIcon.svg"
 import databaseDesignIcon from "@/assets/databaseDesignIcon.svg"
+
+
 import projectResearchIcon from "@/assets/projectResearchIcon.svg"
 </script>
 
