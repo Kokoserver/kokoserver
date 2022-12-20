@@ -1,7 +1,6 @@
 <script setup>
 import linkedInWhiteIcon from "@/assets/linkedInWhiteIcon.svg"
 import gitHubWhiteIcon from "@/assets/gitHubWhiteIcon.svg"
-
 import mailWhiteIcon from "@/assets/mailWhiteIcon.svg"
 </script>
 

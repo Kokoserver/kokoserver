@@ -4,14 +4,19 @@ import gitHubWhiteIcon from "@/assets/gitHubWhiteIcon.svg"
 </script>
 
 <template>
-  <section class="mb-20" id="portfolio ">
+  <section class="mb-20" id="portfolio">
     <h1
-      class="text-primary text-3xl text-center capitalize font-semibold my-20"
+      class="text-primary hidden md:block text-3xl text-center capitalize font-semibold my-20"
     >
       portfolio
     </h1>
     <div class="bg-primary w-full">
-      <div class="container">
+      <div class="container space-y-10">
+        <h1
+          class="text-gray-50 text-3xl text-center capitalize font-semibold pt-20 md:hidden"
+        >
+          portfolio
+        </h1>
         <div class="flex justify-center items-center px-2 md:px-10">
           <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:p-10">
             <div

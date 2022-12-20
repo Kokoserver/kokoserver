@@ -15,6 +15,7 @@ import projectResearchIcon from "@/assets/projectResearchIcon.svg"
     <div class="flex flex-col md:flex-row justify-center items-center gap-5">
       <div
         class="max-w-sm p-6 bg-primary text-gray-50 border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 text-center md:text-left"
+        v-animate-onscroll="animate__fadeInRight"
       >
         <img
           :src="frontEndIcon"

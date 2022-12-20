@@ -1,5 +1,5 @@
-<template>
-  <section id="conversation" class="bg-primary mb-20 p-10 md:p-20">
+<template id="conversation">
+  <section class="bg-primary mb-20 p-10 md:p-20">
     <div
       class="container flex flex-col justify-center items-center text-gray-50"
     >

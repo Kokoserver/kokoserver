@@ -5,9 +5,9 @@ const props = defineProps({
   navMenu: {
     type: Array,
     default: [
-      { name: "about me", url: "/#aboutMe" },
-      { name: "services", url: "/#services" },
-      { name: "Portfolio", url: "/#portfolio" },
+      { name: "about me", url: "#aboutMe" },
+      { name: "services", url: "#services" },
+      { name: "Portfolio", url: "#portfolio" },
     ],
   },
 })
@@ -68,8 +68,7 @@ const props = defineProps({
           >
             <li v-for="link in props.navMenu">
               <RouterLink
-                to="#"
-                :v-scroll-to="`${link.url}`"
+                :to="link.url"
                 class="block py-3 pl-3 pr-4 text-gray-50 md:text-primary hover:text-primary hover:bg-gray-50 rounded md:rounded-none md:hover:text-gray-50 md:hover:font-medium capitalize md:hover:bg-[url('./linkBg.svg')] md:h-full md:w-full md:bg-cover md:bg-no-repeat md:transition-[hover] duration-300"
                 >{{ link.name }}</RouterLink
               >

@@ -1,14 +1,15 @@
 import { createApp } from "vue"
 import { createPinia } from "pinia"
-import VueScrollTo from "vue-scrollto"
+import VueAnimateOnScroll from "vue-animate-onscroll"
 import "flowbite"
 import App from "./App.vue"
 import router from "./router"
 
 import "./assets/main.css"
+import "animate.css"
 
 const app = createApp(App)
-app.use(VueScrollTo)
+app.use(VueAnimateOnScroll)
 app.use(createPinia())
 app.use(router)
 

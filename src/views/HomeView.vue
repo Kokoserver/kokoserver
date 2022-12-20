@@ -19,6 +19,5 @@ import Clients from "@/components/homepage/Clients.vue"
     <Testimonials />
     <Projects />
     <Clients />
-    <Footer />
   </div>
 </template>
