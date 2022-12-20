@@ -6,6 +6,7 @@ import NotFound from "@/views/NotFound.vue"
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
+    { path: "/:pathMatch(.*)*", name: "not-found", component: NotFound },
     {
       path: "/",
       name: "home",
@@ -17,7 +18,6 @@ const router = createRouter({
 
       component: ContactView,
     },
-    { path: "*", name: "not-found", component: NotFound },
   ],
   scrollBehavior(to, _, savedPosition) {
     if (to.hash) {
