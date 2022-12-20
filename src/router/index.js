@@ -17,7 +17,7 @@ const router = createRouter({
 
       component: ContactView,
     },
-    { path: "/:pathMatch(.*)*", name: "not-found", component: NotFound },
+    { path: "*", name: "not-found", component: NotFound },
   ],
   scrollBehavior(to, _, savedPosition) {
     if (to.hash) {
