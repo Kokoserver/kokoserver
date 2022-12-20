@@ -5,9 +5,9 @@ const props = defineProps({
   navMenu: {
     type: Array,
     default: [
-      { name: "about me", url: "#aboutMe" },
-      { name: "services", url: "#services" },
-      { name: "Portfolio", url: "#portfolio" },
+      { name: "about me", url: "/#aboutMe" },
+      { name: "services", url: "/#services" },
+      { name: "Portfolio", url: "/#portfolio" },
     ],
   },
 })
