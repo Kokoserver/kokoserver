@@ -1,6 +1,4 @@
-<script setup>
-import { useStorage } from "@/lib/compossible/useStorage"
-</script>
+<script setup></script>
 <template>
   <div class="container my-56 space-y-10">
     <div class="flex justify-center">

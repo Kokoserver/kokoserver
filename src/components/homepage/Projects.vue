@@ -38,7 +38,7 @@ import gitHubWhiteIcon from "@/assets/gitHubWhiteIcon.svg"
                 <div
                   class="flex items-center justify-center md:justify-start space-x-5"
                 >
-                  <a href="#">
+                  <a href="">
                     <img :src="gitHubWhiteIcon" alt="" />
                   </a>
                   <a href="#">

@@ -9,7 +9,7 @@
         opportunities.
       </p>
       <a
-        href="/contact/?q=chatting"
+        href="/contact?q=chatting"
         class="inline-flex items-center text-gray-50 bg-transparent border-2 border-gray-50 hover:bg-primary-800 focus:ring focus:ring-primary font-medium rounded-lg text-sm px-5 py-2.5 text-center"
       >
         Start a conversation

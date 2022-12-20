@@ -34,7 +34,7 @@ import projectResearchIcon from "@/assets/projectResearchIcon.svg"
           in the browser.
         </p>
         <a
-          href="/contact/?q=backend"
+          href="/contact?q=backend"
           class="inline-flex items-center text-gray-50 hover:underline"
         >
           hire me
@@ -74,7 +74,7 @@ import projectResearchIcon from "@/assets/projectResearchIcon.svg"
           in the browser.
         </p>
         <a
-          href="/contact/?q=backend"
+          href="/contact?q=backend"
           class="inline-flex items-center text-gray-50 hover:underline"
         >
           hire me
@@ -115,7 +115,7 @@ import projectResearchIcon from "@/assets/projectResearchIcon.svg"
           in the browser.
         </p>
         <a
-          href="/contact/?q=database_Design"
+          href="/contact?q=database_Design"
           class="inline-flex items-center text-gray-50 hover:underline"
         >
           hire me
@@ -154,7 +154,7 @@ import projectResearchIcon from "@/assets/projectResearchIcon.svg"
           in the browser.
         </p>
         <a
-          href="/contact/?q=research"
+          href="/contact?q=research"
           class="inline-flex items-center text-gray-50 hover:underline"
         >
           hire me

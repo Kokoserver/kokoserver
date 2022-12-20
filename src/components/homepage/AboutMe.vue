@@ -41,14 +41,14 @@ import AboutImg from "@/assets/about-design-img.svg"
               >
                 <div class="flex flex-col gap-8">
                   <a
-                    href="#"
+                    href="mailto:owonikokoolaoluwa@hotmail.com"
                     class="flex justify-start items-center gap-4 flex-col md:flex-row"
                   >
                     <img :src="mailWhiteIcon" alt="" />
-                    <p class="text-gray-50">owonikokoolaoluwa@gmail.com</p>
+                    <p class="text-gray-50">owonikokoolaoluwa@hotmail.com</p>
                   </a>
                   <a
-                    href="#"
+                    href="https://linkedIn.com/owonikoko-olaoluwa"
                     class="flex justify-start items-center gap-4 flex-col md:flex-row"
                   >
                     <img :src="linkedInWhiteIcon" alt="" />
@@ -57,12 +57,12 @@ import AboutImg from "@/assets/about-design-img.svg"
                     </p>
                   </a>
                   <a
-                    href="#"
+                    href="https://www.github.com/kokoserver"
                     class="flex justify-start items-center gap-4 flex-col md:flex-row"
                   >
                     <img :src="gitHubWhiteIcon" alt="" />
                     <p class="text-gray-50">
-                      htpps://www.github.com/kokoserver
+                      https://www.github.com/kokoserver
                     </p>
                   </a>
                   <a
