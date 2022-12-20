@@ -1,4 +1,5 @@
 <script setup>
+import { RouterLink } from "vue-router"
 import frontEndIcon from "@/assets/frontEndIcon.svg"
 import backEndIcon from "@/assets/serviceBackEndIcon.svg"
 import databaseDesignIcon from "@/assets/databaseDesignIcon.svg"
@@ -15,7 +16,6 @@ import projectResearchIcon from "@/assets/projectResearchIcon.svg"
     <div class="flex flex-col md:flex-row justify-center items-center gap-5">
       <div
         class="max-w-sm p-6 bg-primary text-gray-50 border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 text-center md:text-left"
-        v-animate-onscroll="animate__fadeInRight"
       >
         <img
           :src="frontEndIcon"
@@ -33,8 +33,8 @@ import projectResearchIcon from "@/assets/projectResearchIcon.svg"
           I like to code things from scratch, and enjoy bringing ideas to life
           in the browser.
         </p>
-        <a
-          href="/contact?q=backend"
+        <RouterLink
+          :to="{ name: 'contact', query: { q: 'frontend' } }"
           class="inline-flex items-center text-gray-50 hover:underline"
         >
           hire me
@@ -51,7 +51,7 @@ import projectResearchIcon from "@/assets/projectResearchIcon.svg"
               d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"
             ></path>
           </svg>
-        </a>
+        </RouterLink>
       </div>
 
       <div
@@ -73,8 +73,8 @@ import projectResearchIcon from "@/assets/projectResearchIcon.svg"
           I like to code things from scratch, and enjoy bringing ideas to life
           in the browser.
         </p>
-        <a
-          href="/contact?q=backend"
+        <RouterLink
+          :to="{ name: 'contact', query: { q: 'backend' } }"
           class="inline-flex items-center text-gray-50 hover:underline"
         >
           hire me
@@ -91,7 +91,7 @@ import projectResearchIcon from "@/assets/projectResearchIcon.svg"
               d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"
             ></path>
           </svg>
-        </a>
+        </RouterLink>
       </div>
     </div>
     <div class="flex flex-col md:flex-row justify-center items-center gap-5">
@@ -114,8 +114,9 @@ import projectResearchIcon from "@/assets/projectResearchIcon.svg"
           I like to code things from scratch, and enjoy bringing ideas to life
           in the browser.
         </p>
-        <a
-          href="/contact?q=database_Design"
+
+        <RouterLink
+          :to="{ name: 'contact', query: { q: 'database_Design' } }"
           class="inline-flex items-center text-gray-50 hover:underline"
         >
           hire me
@@ -132,7 +133,7 @@ import projectResearchIcon from "@/assets/projectResearchIcon.svg"
               d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"
             ></path>
           </svg>
-        </a>
+        </RouterLink>
       </div>
       <div
         class="max-w-sm p-6 bg-primary text-gray-50 border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 text-center md:text-left"
@@ -153,8 +154,9 @@ import projectResearchIcon from "@/assets/projectResearchIcon.svg"
           I like to code things from scratch, and enjoy bringing ideas to life
           in the browser.
         </p>
-        <a
-          href="/contact?q=research"
+
+        <RouterLink
+          :to="{ name: 'contact', query: { q: 'research' } }"
           class="inline-flex items-center text-gray-50 hover:underline"
         >
           hire me
@@ -171,7 +173,7 @@ import projectResearchIcon from "@/assets/projectResearchIcon.svg"
               d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"
             ></path>
           </svg>
-        </a>
+        </RouterLink>
       </div>
     </div>
   </section>

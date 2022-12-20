@@ -1,4 +1,5 @@
 <script setup>
+import { RouterLink } from "vue-router"
 import linkedInWhiteIcon from "@/assets/linkedInWhiteIcon.svg"
 import gitHubWhiteIcon from "@/assets/gitHubWhiteIcon.svg"
 import mailWhiteIcon from "@/assets/mailWhiteIcon.svg"
@@ -16,12 +17,12 @@ import mailWhiteIcon from "@/assets/mailWhiteIcon.svg"
         Interested in working together? We should queue up a chat. I’ll buy the
         coffee.
       </p>
-      <a
-        href="/contact/?q=conversation"
+      <RouterLink
+        :to="{name:'contact', params:{'q':conversation} }"
         class="inline-flex items-center text-gray-50 bg-transparent border-2 border-gray-50 hover:bg-primary-800 focus:ring-4 focus:ring-primary font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:focus:ring-primary-900"
       >
         Start a conversation
-      </a>
+      </RouterLink>
     </div>
     <div
       class="flex flex-col justify-center items-center gap-10 text-gray-50 mt-40"

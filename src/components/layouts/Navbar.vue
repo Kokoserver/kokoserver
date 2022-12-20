@@ -29,7 +29,7 @@ const props = defineProps({
         </RouterLink>
         <div class="flex md:order-2">
           <RouterLink
-            :to="{ name: 'contact' }"
+            :to="{name:'contact', params:{q:'contacting'} }"
             type="button"
             class="text-white bg-primary focus:ring-4 focus:outline-none focus:ring-gray-600 font-medium rounded-lg text-sm px-5 py-3 capitalize text-center mr-3 md:mr-0"
           >
