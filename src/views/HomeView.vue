@@ -13,11 +13,11 @@ import Clients from "@/components/homepage/Clients.vue"
   <div>
     <HeroSection />
     <AboutMe />
-    <Services />
     <EducationAndAcademic />
+    <Services />
     <Conversation />
-    <Testimonials />
     <Projects />
+    <Testimonials />
     <Clients />
   </div>
 </template>

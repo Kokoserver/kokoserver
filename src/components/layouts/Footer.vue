@@ -18,7 +18,7 @@ import mailWhiteIcon from "@/assets/mailWhiteIcon.svg"
         coffee.
       </p>
       <RouterLink
-        :to="{name:'contact', params:{'q':conversation} }"
+        :to="{ name: 'contact', params: { q: 'conversation' } }"
         class="inline-flex items-center text-gray-50 bg-transparent border-2 border-gray-50 hover:bg-primary-800 focus:ring-4 focus:ring-primary font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:focus:ring-primary-900"
       >
         Start a conversation
@@ -35,13 +35,13 @@ import mailWhiteIcon from "@/assets/mailWhiteIcon.svg"
           <img :src="phoneIcon" alt="" />
         </a> -->
         <a href="https://www.linkedin.com/owonikoko-olaoluwa">
-          <img :src="linkedInWhiteIcon" alt="" />
+          <img :src="linkedInWhiteIcon" alt="" class="w-10 h-10" />
         </a>
         <a href="https://www.github.com/kokoserver">
-          <img :src="gitHubWhiteIcon" alt="" />
+          <img :src="gitHubWhiteIcon" alt="" class="w-10 h-10" />
         </a>
         <a href="mailto:owonikokoolaoluwa@hotmail.com">
-          <img :src="mailWhiteIcon" alt="" />
+          <img :src="mailWhiteIcon" alt="" class="w-10 h-10" />
         </a>
       </div>
       <p class="capitalize">

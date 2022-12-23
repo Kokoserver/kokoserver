@@ -5,7 +5,7 @@ import LeftArrow from "@/assets/leftArrow.svg"
 </script>
 
 <template>
-  <section class="mb-20" id="testimonials">
+  <section class="mb-20 bg-primary py-20" id="testimonials">
     <div
       class="grid grid-cols-1 md:grid-cols-2 items-center justify-center gap-10 px-10 md:px-20"
     >
@@ -19,7 +19,7 @@ import LeftArrow from "@/assets/leftArrow.svg"
         data-carousel="static"
       >
         <h1
-          class="text-primary text-3xl text-center md:text-left capitalize font-semibold mb-5"
+          class="text-gray-50 text-3xl text-center md:text-left capitalize font-semibold mb-5"
         >
           testimonials
         </h1>
@@ -27,8 +27,8 @@ import LeftArrow from "@/assets/leftArrow.svg"
         <div class="relative md:w-3/4 h-36 overflow-hidden rounded-md">
           <!-- Item 1 -->
           <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <div class="font-light text-center md:text-left">
-              <p class="text-gray-600 pb-1 font-medium capitalize">
+            <div class="font-light text-gray-100 text-center md:text-left">
+              <p class="text-gray-100 pb-1 font-medium capitalize">
                 Abdullahi Habeeb | CEO, Habs Creative
               </p>
               “Owonikoko was a real pleasure to work with and we look forward to
@@ -37,8 +37,8 @@ import LeftArrow from "@/assets/leftArrow.svg"
             </div>
           </div>
           <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <div class="font-light text-center md:text-left">
-              <p class="text-gray-600 pb-1 font-medium capitalize">
+            <div class="font-light text-center  md:text-left">
+              <p class="text-gray-100 pb-1 font-medium capitalize">
                 Abdullahi Habeeb | CEO, Habs Creative
               </p>
               “Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat,
@@ -49,7 +49,7 @@ import LeftArrow from "@/assets/leftArrow.svg"
           </div>
           <div class="hidden duration-700 ease-in-out" data-carousel-item>
             <div class="font-light text-center md:text-left">
-              <p class="text-gray-600 pb-1 font-medium capitalize">
+              <p class="text-gray-50 pb-1 font-medium capitalize">
                 Abdullahi Habeeb | CEO, Habs Creative
               </p>
               “Lorem ipsum dolor sit amet, consectetur adipisicing elit.

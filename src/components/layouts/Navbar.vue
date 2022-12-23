@@ -11,9 +11,14 @@ const props = defineProps({
     ],
   },
 })
+
+const hideNav = () => {
+  const nav_toggler = document.querySelector("#navToggler")
+  nav_toggler.click()
+}
 </script>
 <template>
-  <header class="fixed min-w-full md:absolute top-0">
+  <header class="fixed min-w-full md:absolute top-0 z-50">
     <nav
       class="bg-white h-16 md:mt-3 border-gray-200 md:border-none px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900 border-b relative"
     >
@@ -29,15 +34,16 @@ const props = defineProps({
         </RouterLink>
         <div class="flex md:order-2">
           <RouterLink
-            :to="{name:'contact', params:{q:'contacting'} }"
+            :to="{ name: 'contact', params: { q: 'contacting' } }"
             type="button"
             class="text-white bg-primary focus:ring-4 focus:outline-none focus:ring-gray-600 font-medium rounded-lg text-sm px-5 py-3 capitalize text-center mr-3 md:mr-0"
           >
-            say hello
+            Hire me
           </RouterLink>
           <button
             data-collapse-toggle="navbar-cta"
             type="button"
+            id="navToggler"
             class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
             aria-controls="navbar-cta"
             aria-expanded="false"
@@ -64,11 +70,13 @@ const props = defineProps({
           id="navbar-cta"
         >
           <ul
+            id="na_menu"
             class="flex flex-col p-4 border border-gray-100 rounded-lg text-gray-50 md:text-gray-primary md:hover:font-semibold bg-primary md:bg-transparent md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 absolute md:relative top-[4rem] left-0 right-0 md:top-0 w-full md:w-auto"
           >
             <li v-for="link in props.navMenu">
               <RouterLink
                 :to="link.url"
+                @click="hideNav"
                 class="block py-3 pl-3 pr-4 text-gray-50 md:text-primary hover:text-primary hover:bg-gray-50 rounded md:rounded-none md:hover:text-gray-50 md:hover:font-medium capitalize md:hover:bg-[url('/linkBg.svg')] md:h-full md:w-full md:bg-cover md:bg-no-repeat md:transition-[hover] duration-300"
                 >{{ link.name }}</RouterLink
               >

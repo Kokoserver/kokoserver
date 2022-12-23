@@ -4,7 +4,7 @@ import WorkingExperience from "@/assets/workinExperience.svg"
 </script>
 
 <template>
-  <section class="mb-20" id="achievement">
+  <section class="mb-20 hidden md:block" id="achievement">
     <div class="container">
       <div class="flex flex-col md:flex-row justify-center item-center gap-5">
         <div>

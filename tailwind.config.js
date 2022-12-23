@@ -4,11 +4,12 @@ module.exports = {
     "./src/**/*.{vue,js,ts,jsx,tsx, .svg}",
     "./node_modules/flowbite/**/*.js",
   ],
+  darkMode: "class",
   theme: {
     container: {
       center: true,
       padding: {
-        DEFAULT: "1rem",
+        DEFAULT: "2rem",
         sm: "0.5rem",
         lg: "3rem",
         xl: "4rem",

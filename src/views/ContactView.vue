@@ -1,4 +1,9 @@
-<script setup></script>
+<script setup>
+import linkedInWhiteIcon from "@/assets/linkedInWhiteIcon.svg"
+import gitHubWhiteIcon from "@/assets/gitHubWhiteIcon.svg"
+import mailWhiteIcon from "@/assets/mailWhiteIcon.svg"
+import phoneIcon from "@/assets/phoneIcon.svg"
+</script>
 <template>
   <div class="container my-56 space-y-10">
     <div class="flex justify-center">
@@ -55,5 +60,36 @@
         </button>
       </div>
     </form>
+  </div>
+  <div class="container">
+    <div class="flex items-center justify-center md:justify-start space-x-5">
+      <div class="flex flex-col gap-8">
+        <a
+          href="mailto:owonikokoolaoluwa@hotmail.com"
+          class="flex justify-start items-center gap-4 flex-row"
+        >
+          <img :src="mailWhiteIcon" alt="" />
+          <p class="text-gray-50">owonikokoolaoluwa@hotmail.com</p>
+        </a>
+        <a
+          href="https://linkedIn.com/owonikoko-olaoluwa"
+          class="flex justify-start items-center gap-4 flex-row"
+        >
+          <img :src="linkedInWhiteIcon" alt="" />
+          <p class="text-gray-50">https://linkedIn.com/owonikoko-olaoluwa</p>
+        </a>
+        <a
+          href="https://www.github.com/kokoserver"
+          class="flex justify-start items-center gap-4 flex-row"
+        >
+          <img :src="gitHubWhiteIcon" alt="" />
+          <p class="text-gray-50">https://www.github.com/kokoserver</p>
+        </a>
+        <a href="#" class="flex justify-start items-center gap-4 flex-row">
+          <img :src="phoneIcon" alt="" />
+          <p class="text-gray-50">+234-907-113-3023</p>
+        </a>
+      </div>
+    </div>
   </div>
 </template>

@@ -33,25 +33,6 @@ import projectResearchIcon from "@/assets/projectResearchIcon.svg"
           I like to code things from scratch, and enjoy bringing ideas to life
           in the browser.
         </p>
-        <RouterLink
-          :to="{ name: 'contact', query: { q: 'frontend' } }"
-          class="inline-flex items-center text-gray-50 hover:underline"
-        >
-          hire me
-          <svg
-            class="w-5 h-5 ml-2"
-            fill="currentColor"
-            viewBox="0 0 20 20"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"
-            ></path>
-            <path
-              d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"
-            ></path>
-          </svg>
-        </RouterLink>
       </div>
 
       <div
@@ -73,25 +54,6 @@ import projectResearchIcon from "@/assets/projectResearchIcon.svg"
           I like to code things from scratch, and enjoy bringing ideas to life
           in the browser.
         </p>
-        <RouterLink
-          :to="{ name: 'contact', query: { q: 'backend' } }"
-          class="inline-flex items-center text-gray-50 hover:underline"
-        >
-          hire me
-          <svg
-            class="w-5 h-5 ml-2"
-            fill="currentColor"
-            viewBox="0 0 20 20"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"
-            ></path>
-            <path
-              d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"
-            ></path>
-          </svg>
-        </RouterLink>
       </div>
     </div>
     <div class="flex flex-col md:flex-row justify-center items-center gap-5">
@@ -114,26 +76,6 @@ import projectResearchIcon from "@/assets/projectResearchIcon.svg"
           I like to code things from scratch, and enjoy bringing ideas to life
           in the browser.
         </p>
-
-        <RouterLink
-          :to="{ name: 'contact', query: { q: 'database_Design' } }"
-          class="inline-flex items-center text-gray-50 hover:underline"
-        >
-          hire me
-          <svg
-            class="w-5 h-5 ml-2"
-            fill="currentColor"
-            viewBox="0 0 20 20"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"
-            ></path>
-            <path
-              d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"
-            ></path>
-          </svg>
-        </RouterLink>
       </div>
       <div
         class="max-w-sm p-6 bg-primary text-gray-50 border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 text-center md:text-left"
@@ -154,26 +96,6 @@ import projectResearchIcon from "@/assets/projectResearchIcon.svg"
           I like to code things from scratch, and enjoy bringing ideas to life
           in the browser.
         </p>
-
-        <RouterLink
-          :to="{ name: 'contact', query: { q: 'research' } }"
-          class="inline-flex items-center text-gray-50 hover:underline"
-        >
-          hire me
-          <svg
-            class="w-5 h-5 ml-2"
-            fill="currentColor"
-            viewBox="0 0 20 20"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"
-            ></path>
-            <path
-              d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"
-            ></path>
-          </svg>
-        </RouterLink>
       </div>
     </div>
   </section>
