@@ -48,7 +48,7 @@ import LeftArrow from "@/assets/leftArrow.svg"
             </div>
           </div>
           <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <div class="font-light text-center md:text-left">
+            <div class="font-light text-center text-gray-100 md:text-left">
               <p class="text-gray-50 pb-1 font-medium capitalize">
                 Abdullahi Habeeb | CEO, Habs Creative
               </p>
