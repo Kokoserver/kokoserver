@@ -1,5 +1,4 @@
 <script setup>
-import HeroImage from "@/assets/hero-img.svg"
 import RightArrowIcon from "@/assets/rightArrowIcon.svg"
 import LeftArrow from "@/assets/leftArrow.svg"
 </script>
@@ -11,15 +10,23 @@ import LeftArrow from "@/assets/leftArrow.svg"
       </h1>
       <div
         id="animation-carousel"
-        class="relative flex flex-col justify-center gap-6 md:gap-5 md:hidden"
+        class="relative flex flex-col justify-center items-center gap-6 md:gap-5 md:hidden"
         data-carousel="static"
       >
         <!-- Carousel wrapper -->
-        <div class="relative h-52 w-96 overflow-hidden rounded-md">
+        <div class="relative h-20 w-96 overflow-hidden rounded-md">
           <!-- Item 1 -->
           <div class="hidden duration-700 ease-in-out" data-carousel-item>
             <div class="font-light text-gray-100 text-center md:text-left">
-              <img :src="HeroImage" alt="" srcset="" class="w-full" />
+              <div
+                class="flex flex-col items-center border-gray-600 rounded-lg md:flex-row md:max-w-xl"
+              >
+                <img
+                  class="object-cover rounded-t-lg w-[10rem]"
+                  src="/clients/Imisi-navy-1170x498.png"
+                  alt=""
+                />
+              </div>
             </div>
           </div>
           <div
@@ -27,7 +34,15 @@ import LeftArrow from "@/assets/leftArrow.svg"
             data-carousel-item
           >
             <div class="font-light text-center md:text-left">
-              <img :src="HeroImage" alt="" srcset="" class="w-full" />
+              <div
+                class="flex flex-col items-center border-gray-600 rounded-lg md:flex-row md:max-w-xl"
+              >
+                <img
+                  class="object-cover rounded-t-lg w-[10rem]"
+                  src="/clients/FINAL-GOLD.png"
+                  alt=""
+                />
+              </div>
             </div>
           </div>
           <div
@@ -35,7 +50,63 @@ import LeftArrow from "@/assets/leftArrow.svg"
             data-carousel-item
           >
             <div class="font-light text-center md:text-left">
-              <img :src="HeroImage" alt="" srcset="" class="w-full" />
+              <div
+                class="flex flex-col items-center border-gray-600 rounded-lg md:flex-row md:max-w-xl"
+              >
+                <img
+                  class="object-cover rounded-t-lg w-[10rem]"
+                  src="/clients/logo-slant-e1662252738309.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="hidden duration-700 w-full ease-in-out"
+            data-carousel-item
+          >
+            <div class="font-light text-center md:text-left">
+              <div
+                class="flex flex-col items-center border-gray-600 rounded-lg md:flex-row md:max-w-xl"
+              >
+                <img
+                  class="object-cover rounded-t-lg w-[10rem]"
+                  src="/clients/logo.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="hidden duration-700 w-full ease-in-out"
+            data-carousel-item
+          >
+            <div class="font-light text-center md:text-left">
+              <div
+                class="flex flex-col items-center border-gray-600 rounded-lg md:flex-row md:max-w-xl"
+              >
+                <img
+                  class="object-cover rounded-t-lg w-[10rem]"
+                  src="/clients/project-enable-logo-png.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="hidden duration-700 w-full ease-in-out"
+            data-carousel-item
+          >
+            <div class="font-light text-center md:text-left">
+              <div
+                class="flex flex-col items-center border-gray-600 rounded-lg md:flex-row md:max-w-xl"
+              >
+                <img
+                  class="object-cover rounded-t-lg w-[10rem]"
+                  src="/clients/stanforteedge-logo-trans.png"
+                  alt=""
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -50,13 +121,29 @@ import LeftArrow from "@/assets/leftArrow.svg"
           />
         </div>
       </div>
-      <div class="hidden grid-cols-2 md:grid-cols-3 md:grid">
-        <img :src="HeroImage" alt="" class="w-40 h-40" />
-        <img :src="HeroImage" alt="" class="w-40 h-40" />
-        <img :src="HeroImage" alt="" class="w-40 h-40" />
-        <img :src="HeroImage" alt="" class="w-40 h-40" />
-        <img :src="HeroImage" alt="" class="w-40 h-40" />
-        <img :src="HeroImage" alt="" class="w-40 h-40" />
+      <div class="hidden grid-cols-2 md:grid-cols-3 md:grid gap-6">
+        <img
+          src="/clients/Imisi-navy-1170x498.png"
+          alt=""
+          class="w-24 object-cover"
+        />
+        <img src="/clients/FINAL-GOLD.png" alt="" class="w-24 object-cover" />
+        <img
+          src="/clients/logo-slant-e1662252738309.png"
+          alt=""
+          class="w-24 object-cover"
+        />
+        <img src="/clients/logo.png" alt="" class="w-24 object-cover" />
+        <img
+          src="/clients/project-enable-logo-png.png"
+          alt=""
+          class="w-24 object-cover"
+        />
+        <img
+          src="/clients/stanforteedge-logo-trans.png"
+          alt=""
+          class="w-24 object-cover"
+        />
       </div>
     </div>
   </section>
