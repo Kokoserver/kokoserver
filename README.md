@@ -12,6 +12,9 @@ I am a BSE graduate skilled in software debugging, design, and testing. I'm a st
 ![](https://github-readme-streak-stats.herokuapp.com/?user=kokoserver&theme=dark&hide_border=true)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=kokoserver&theme=dark&hide_border=true&include_all_commits=true&count_private=true&layout=compact)
 
+## 🏆 GitHub Trophies
+![](https://github-profile-trophy.vercel.app/?username=kokoserver&theme=darkhub&no-frame=true&no-bg=false&margin-w=4)
+
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
