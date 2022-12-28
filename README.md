@@ -1,5 +1,5 @@
 # 💫 About Me:
-I am a BSE graduate skilled in software debugging, design, and testing. I'm a strong team player who is able to quickly learn and apply new technologies.
+I'm currently  working on a backend project<br>I'm looking to collaborate on a full-stack-related project<br>I'm currently learning Vitest(front-end), pytest(python backend) testing <br>Ask me about python backend development<br>Fun fact - I love football<br><br>
 
 
 ## 🌐 Socials:
@@ -13,7 +13,7 @@ I am a BSE graduate skilled in software debugging, design, and testing. I'm a st
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=kokoserver&theme=dark&hide_border=true&include_all_commits=true&count_private=true&layout=compact)
 
 ## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=kokoserver&theme=darkhub&no-frame=true&no-bg=false&margin-w=4)
+![](https://github-profile-trophy.vercel.app/?username=kokoserver&theme=dracula&no-frame=true&no-bg=true&margin-w=4)
 
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
