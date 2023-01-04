@@ -34,7 +34,7 @@ import mailWhiteIcon from "@/assets/mailWhiteIcon.svg"
         <!-- <a href="#">
           <img :src="phoneIcon" alt="" />
         </a> -->
-        <a href="https://www.linkedin.com/owonikoko-olaoluwa">
+        <a href="https://www.linkedin.com/in/owonikoko-olaoluwa">
           <img :src="linkedInWhiteIcon" alt="" class="w-10 h-10" />
         </a>
         <a href="https://www.github.com/kokoserver">
