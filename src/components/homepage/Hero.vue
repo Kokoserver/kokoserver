@@ -61,7 +61,7 @@ const download_resume = () => {
             I’m a professional software engineer with over 3 years experience in
             this field
           </p>
-          <div class="space-x-5">
+          <div class="space-x-5 space-y-4 md:space-y-0">
             <RouterLink
               to="/#aboutMe"
               class="inline-flex items-center text-gray-50 bg-primary hover:bg-primary-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:focus:ring-primary-900"
