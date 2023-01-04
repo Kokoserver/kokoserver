@@ -72,11 +72,11 @@ import phoneIcon from "@/assets/phoneIcon.svg"
           <p class="text-gray-50">owonikokoolaoluwa@hotmail.com</p>
         </a>
         <a
-          href="https://linkedIn.com/owonikoko-olaoluwa"
+          href="https://linkedIn.com/in/owonikoko-olaoluwa"
           class="flex justify-start items-center gap-4 flex-row"
         >
           <img :src="linkedInWhiteIcon" alt="" />
-          <p class="text-gray-50">https://linkedIn.com/owonikoko-olaoluwa</p>
+          <p class="text-gray-50">https://linkedIn.com/in/owonikoko-olaoluwa</p>
         </a>
         <a
           href="https://www.github.com/kokoserver"

@@ -34,7 +34,7 @@ const download_resume = () => {
             <!-- <a href="#">
               <img :src="facebookIcon" alt="" />
             </a> -->
-            <a href="https://linkedin.com/owonikoko-olaoluwa">
+            <a href="https://linkedIn.com/in/owonikoko-olaoluwa">
               <img :src="linkedinIcon" alt="" class="w-10 h-10" />
             </a>
             <a href="https://www.github.com/kokoserver">
