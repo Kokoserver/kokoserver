@@ -5,7 +5,7 @@ import LeftArrow from "@/assets/leftArrow.svg"
 <template>
   <section class="my-10" id="client">
     <div class="container space-y-9 flex items-center justify-center flex-col">
-      <h1 class="text-2xl font-semibold w-96 text-center">
+      <h1 class="text-2xl font-semibold w-full md:w-96 text-center">
         I'm proud to have collaborated with some awesome companies:
       </h1>
       <div
