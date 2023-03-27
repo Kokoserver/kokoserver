@@ -11,7 +11,7 @@ I'm currently  working on a backend project<br>I'm looking to collaborate on a f
 ![](https://github-readme-stats.vercel.app/api?username=kokoserver&theme=dark&hide_border=true&include_all_commits=true&count_private=true)<br/>
 ![](https://github-readme-streak-stats.herokuapp.com/?user=kokoserver&theme=dark&hide_border=true)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=kokoserver&theme=dark&hide_border=true&include_all_commits=true&count_private=true&layout=compact)
-
+[![](https://visitcount.itsvg.in/api?id=kokoserver&label=Profile%20Views&color=0&icon=5&pretty=true)](https://visitcount.itsvg.in)
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=kokoserver&theme=dracula&no-frame=true&no-bg=true&margin-w=4)
 
