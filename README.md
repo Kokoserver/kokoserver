@@ -71,3 +71,11 @@ Active contributor to the Dymmond ecosystem:
 ## Let's connect
 
 [LinkedIn](https://linkedin.com/in/owonikoko-olaoluwa) · [GitHub](https://github.com/Kokoserver) · [Twitter](https://twitter.com/kokoserver)
+
+### ✍️ Random Dev Quote
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+
+---
+[![](https://visitcount.itsvg.in/api?id=kokoserver&icon=0&color=0)](https://visitcount.itsvg.in)
+
+<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->update this to show my skill in github
