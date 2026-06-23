@@ -1,5 +1,3 @@
-Here is the cleaned and fully filled version. I removed the placeholder lines and made the skills/project sections stronger for GitHub. 
-
 # Who is `Kokoserver`?
 
 `Kokoserver` is also known as Daniel Owonikoko, a Full Stack Software Engineer based in Lagos, Nigeria.
